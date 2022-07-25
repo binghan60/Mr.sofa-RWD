@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            沙發先生家居｜北歐風、各式沙發、家具推薦，專業手工沙發工廠直營
+        </title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="./reset.css" />
+        <style>
+            * {
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            .space {
+                height: 56px;
+            }
+
+            .m-nav {
+                width: 100%;
+                height: 56px;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 0px 1px 5px #eee;
+                position: fixed;
+                top: 0;
+                z-index: 10;
+            }
+
+            .d-nav {
+                width: 100%;
+                font-weight: 700;
+                position: fixed;
+                top: 0;
+                z-index: 10;
+                background-color: #fff;
+                box-shadow: 0px 1px 5px #eee;
+            }
+
+            .d-list {
+                font-size: 0.9rem;
+            }
+
+            .text-area,
+            .h2-area {
+                margin: 3rem 0;
+                text-align: center;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 1.2rem;
+                color: #595959;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 1.2rem;
+                color: #000000;
+                font-weight: 700;
+            }
+
+            h3 {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .imgwrap {
+                width: 100%;
+            }
+
+            .imglogo {
+                width: 500px;
+            }
+
+            .logo {
+                max-width: 180px;
+                height: 56px;
+                padding: 8px 16px;
+                display: flex;
+                align-items: center;
+            }
+
+            .logo img {
+                width: 100%;
+            }
+
+            .pd0 {
+                padding: 0;
+            }
+
+            .icon {
+                width: 115px;
+                padding: 0 18px;
+                float: right;
+            }
+
+            .icon .d-flex li {
+                padding: 15px;
+            }
+
+            .margin-10 {
+                margin-top: -5px;
+            }
+
+            .add-btn {
+                background-color: #333;
+                color: #fff;
+                padding: 12px 0px;
+                width: 80%;
+                margin: 0 auto 0 auto;
+            }
+
+            .lh-15 {
+                line-height: 1.5;
+            }
+
+            .fs125 {
+                font-size: 1.25rem;
+            }
+
+            .page-item {
+                padding: 10px;
+            }
+
+            .page-item a {
+                border: 1px solid transparent;
+                font-size: 1.25rem;
+            }
+
+            .page-item.active .page-link {
+                background-color: #000;
+                border-color: #000;
+            }
+
+            footer {
+                background: #cdcd9a;
+                color: #fff;
+                font-size: 1.25rem;
+                line-height: 1.4;
+            }
+
+            .footer-info {
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            .black {
+                height: 20px;
+            }
+
+            /* 桌機 */
+            @media screen and (min-width: 800px) {
+                .space {
+                    height: 178px;
+                }
+            }
+
+            /* 行動 */
+            @media screen and (max-width: 800px) {
+                iframe {
+                    width: 345px;
+                    height: 194px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="space"></div>
+        <nav>
+            <div class="d-nav d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <i class="fa-solid fa-globe w-25 pl-4 pt-3 fs125"></i>
+                    <div class="d-list text-center mx-5 px-5 py-3 w-75">
+                        <div class="imglogo mr-auto ml-auto pb-3">
+                            <img src="./mrsofa/10002.png" alt="" />
+                        </div>
+                        <ul class="d-flex justify-content-center">
+                            <li class="px-1">
+                                熱賣沙發款推薦<i
+                                    class="fa-solid fa-angle-down"
+                                ></i>
+                            </li>
+                            <li class="px-1">
+                                全新商品NEW<i
+                                    class="fa-solid fa-angle-down"
+                                ></i>
+                            </li>
+                            <li class="px-1">
+                                精選沙發專區<i
+                                    class="fa-solid fa-angle-down"
+                                ></i>
+                            </li>
+                            <li class="px-1">
+                                毛毛蟲床墊<i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li class="px-1">
+                                床墊寢具<i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li class="px-1">開箱顧客的家</li>
+                            <li class="px-1">
+                                關於我們<i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li class="px-1">
+                                分館資訊<i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li class="px-1">
+                                產品選購指南<i
+                                    class="fa-solid fa-angle-down"
+                                ></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="fs125 d-flex justify-content-end align-items-baseline px-3 pt-3 ml-5 w-25"
+                    >
+                        <ul class="d-flex">
+                            <li class="px-2">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </li>
+                            <li class="px-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </li>
+                            <li class="px-2">
+                                <i class="fa-solid fa-comment-dots"></i>
+                            </li>
+                            <li class="px-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="m-nav d-lg-none">
+                <div class="logo mr-auto">
+                    <img src="./mrsofa/10002.png" alt="" />
+                </div>
+                <div class="icon">
+                    <ul class="d-flex">
+                        <li><i class="fa-solid fa-cart-shopping"></i></li>
+                        <li><i class="fa-solid fa-bars"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="imgwrap py-3 d-none d-lg-block">
+                <img src="./mrsofa/10101.webp" alt="" />
+            </div>
+            <div class="imgwrap py-3 d-lg-none">
+                <img src="./mrsofa/10006.webp" alt="" />
+            </div>
+        </div>
+        <main class="container">
+            <div class="row">
+                <div class="col-lg-4 pd0">
+                    <div class="imgwrap mt-3">
+                        <img src="./mrsofa/10079.webp" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-4 pd0">
+                    <div class="imgwrap mt-3">
+                        <img src="./mrsofa/10080.webp" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-4 pd0">
+                    <div class="imgwrap mt-3">
+                        <img src="./mrsofa/10081.webp" alt="" />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="text-area">
+            <h1 class="py-3">沙發先生家居 專業訂製沙發推薦</h1>
+        </div>
+        <div class="imgwrap d-lg-none">
+            <img src="./mrsofa/10010.webp" alt="" />
+            <img class="margin-10" src="./mrsofa/10011.webp" alt="" />
+        </div>
+        <div class="imgwrap d-none d-lg-block">
+            <img src="./mrsofa/10082.webp" alt="" />
+            <img class="margin-10" src="./mrsofa/10083.webp" alt="" />
+        </div>
+        <div class="h2-area pb-5">
+            <h2>精選布沙發、皮沙發推薦</h2>
+        </div>
+        <div class="product container d-flex flex-wrap">
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10047.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">NO:50型</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$68,000 ~ NT$124,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10048.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">Mystic 神秘客</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$175,000 ~ NT$264,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10051.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">Beth 貝絲</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$6,600 ~ NT$55,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10052.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">Let It Be</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$230,000 ~ NT$340,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10053.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">SAXO 薩克斯</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$96,000 ~ NT$176,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10054.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">Connie 康尼</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$84,000 ~ NT$160,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10056.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">Bryant 布萊恩</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$84,000 ~ NT$160,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10057.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">NEESE 尼斯</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$30,000 ~ NT$60,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <!-- <li class="page-item disabled ">
+                <a class="page-link text-dark" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li> -->
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#"
+                        >1 <span class="sr-only">(current)</span></a
+                    >
+                </li>
+                <li class="page-item">
+                    <a class="page-link text-dark" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link text-dark" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link text-dark" href="#">4</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link text-dark" href="#">＞</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="h2-area">精品茶几 Coffee table</h3>
+        <div class="product container d-flex flex-wrap">
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10026.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">Lotus 荷葉陶板大茶几</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">NT$25,000</p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10027.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">雙圓八字茶几</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$8,000 ~ NT$20,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10028.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">交叉網玻璃茶几</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$9,000 ~ NT$15,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 px-2">
+                <div class="text-center">
+                    <img src="./mrsofa/10030.webp" alt="" />
+                    <div class="info mt-5 lh-15">
+                        <h6 class="mt-2 fs125">圓勾大小茶几</h6>
+                        <p class="mt-1 mb-4 font-weight-bold">
+                            NT$8,000 ~ NT$23,000
+                        </p>
+                    </div>
+                    <p class="add-btn mb-5 font-weight-bold">加入購物車</p>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#"
+                        >1 <span class="sr-only">(current)</span></a
+                    >
+                </li>
+                <li class="page-item">
+                    <a class="page-link text-dark" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link text-dark" href="#">＞</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="text-area">
+            <h2 class="pt-3">專業直營沙發工廠</h2>
+        </div>
+        <div class="imgwrap d-lg-none">
+            <img src="./mrsofa/10108.webp" alt="" />
+            <img class="margin-10" src="./mrsofa/10109.webp" alt="" />
+        </div>
+        <div class="imgwrap d-none d-lg-block">
+            <img src="./mrsofa/10074.webp" alt="" />
+            <img class="margin-10" src="./mrsofa/10075.webp" alt="" />
+        </div>
+        <div class="text-area">
+            <h2 class="pt-3">更多沙發推薦資訊</h2>
+        </div>
+        <div class="container d-flex flex-wrap pd0 my-4">
+            <div class="col-12 col-lg-4 my-3">
+                <iframe
+                    width="345"
+                    height="194"
+                    src="https://www.youtube.com/embed/JvB_v1opbZs"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="col-12 col-lg-4 my-3">
+                <iframe
+                    width="345"
+                    height="194"
+                    src="https://www.youtube.com/embed/PxbMjbrLioI"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="col-12 col-lg-4 my-3">
+                <iframe
+                    width="345"
+                    height="194"
+                    src="https://www.youtube.com/embed/ulHFqvJmkBg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+        <div class="imgwrap d-none d-lg-block">
+            <img src="./mrsofa/10076.webp" alt="" />
+        </div>
+        <div class="imgwrap d-lg-none">
+            <img src="./mrsofa/10110.webp" alt="" />
+        </div>
+
+        <div class="container d-flex flex-wrap pd0">
+            <div class="col-12 col-lg-6 my-3">
+                <iframe
+                    width="540"
+                    height="303"
+                    src="https://www.youtube.com/embed/4pKfHkfrxko"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="col-12 col-lg-6 my-3">
+                <iframe
+                    width="540"
+                    height="303"
+                    src="https://www.youtube.com/embed/GvKz-rrn_Mc"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="col-12 col-lg-6 my-3">
+                <iframe
+                    width="540"
+                    height="303"
+                    src="https://www.youtube.com/embed/5ULiohwZ0BQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="col-12 col-lg-6 my-3">
+                <iframe
+                    width="540"
+                    height="303"
+                    src="https://www.youtube.com/embed/TF2t_Xv7WXo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+        <div class="container">
+            <div class="imgwrap d-lg-none">
+                <img src="./mrsofa/10111.webp" alt="" />
+                <img class="margin-10" src="./mrsofa/10094.webp" alt="" />
+            </div>
+            <div class="imgwrap d-none d-lg-block">
+                <img src="./mrsofa/10077.webp" alt="" />
+                <img class="margin-10" src="./mrsofa/10103.webp" alt="" />
+            </div>
+        </div>
+
+        <div class="text-area">
+            <h2 class="pt-3">沙發知識｜沙發先生Blog</h2>
+        </div>
+        <div class="container d-flex flex-wrap">
+            <div class="col-12 col-lg-6 imgwrap mb-4">
+                <img src="./mrsofa/10067.webp" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 imgwrap mb-4">
+                <img src="./mrsofa/10068.webp" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 imgwrap mb-4">
+                <img src="./mrsofa/10069.webp" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 imgwrap mb-4">
+                <img src="./mrsofa/10070.webp" alt="" />
+            </div>
+        </div>
+        <div class="imgwrap mb-5 pb-4 d-lg-none">
+            <img src="./mrsofa/10112.webp" alt="" />
+        </div>
+        <div class="imgwrap mb-5 pb-4 d-none d-lg-block">
+            <img src="./mrsofa/10088.webp" alt="" />
+        </div>
+        <footer class="pt-5">
+            <div class="container">
+                <div class="row d-flex flex-wrap mr-auto ml-auto pd0">
+                    <div class="col-12 col-lg-4 mb-5">
+                        <ul>
+                            <li>沙發先生家居</li>
+                            <br />
+                            <li>▪ Facebook</li>
+                            <li>▪ LINE＠</li>
+                            <li>▪ 訂閱我們的頻道 NEW</li>
+                            <li>▪ 追蹤我們的 Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 mb-5">
+                        <ul>
+                            <li>沙發先生家居有限公司</li>
+                            <br />
+                            <li>▪ 客服時間 11:00-19:00</li>
+                            <li>▪ 北部客服電話 02-22978650</li>
+                            <li>▪ 中南部客服電話 0988-550-388</li>
+                            <li>
+                                ▪ 信箱<br
+                                    class="d-lg-none"
+                                />mrsofa.pm01@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 mb-5">
+                        <ul>
+                            <li>沙發先生家居有限公司</li>
+                            <br />
+                            <li>▪ 新北電話：0908727208</li>
+                            <li>▪ 內湖電話：0989186937</li>
+                            <li>▪ 桃園電話：0900453377</li>
+                            <li>▪ 竹北電話：0986528078</li>
+                            <li>▪ 台中電話：0916570537</li>
+                            <li>▪ 台南電話：0902139088</li>
+                            <li>▪ 烏松電話：0905619519</li>
+                            <li>▪ 九如電話：0968683588</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <p class="footer-info">
+                            品牌故事 分館資訊 預約分館 購物說明
+                        </p>
+                        <p class="footer-info">版權聲明© 2020 SU TZU TUNG</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="black w-100 bg-dark"></div>
+    </body>
+</html>
